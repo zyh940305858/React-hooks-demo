@@ -9,7 +9,7 @@ function Index(){
         return () => {
             console.log('老弟你走了！')
         }
-    })
+    },[])
     return <h2>赵宇航</h2>
 }
 
@@ -25,7 +25,10 @@ function Demo2(){
 
     useEffect(() => {
         console.log(`useEffect=>You clicked ${count} times`)
-    })
+        return () => {
+            console.log("================================")
+        }
+    }, [ count ])
     return (
         <div>
             <p>当前的count为：{ count }</p>
