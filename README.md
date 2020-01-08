@@ -11,4 +11,5 @@ React-hooks纯函数式编程自学
     createContext useContext实现父子组件传值
 ## Demo4
     useReducer js实现reducer  reducer实现计数器效果
-
+## Demo5
+    useContext useReducer 实现(redux效果)动态颜色切换
