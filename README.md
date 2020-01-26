@@ -13,3 +13,7 @@ React-hooks纯函数式编程自学
     useReducer js实现reducer  reducer实现计数器效果
 ## Demo5
     useContext useReducer 实现(redux效果)动态颜色切换
+## Demo6
+    useMemo 解决重复渲染
+## Demo7
+    useRef 获取元素属性

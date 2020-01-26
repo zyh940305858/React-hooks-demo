@@ -13,7 +13,7 @@ function Demo6() {
     )
 }
 
-function ChildComponent({name, children}){
+function ChildComponent({name, children}) {
 
     function changeXiaohong(){
         console.log(1)
